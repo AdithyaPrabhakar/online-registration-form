@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #023047;
+    color: #023047;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #219ebc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin: 10px 0;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(251, 225, 194);
+    margin-bottom: 15px;
+    border: 1px solid #264382;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #023047;
+    border: none;
+    border-radius: 5px;
+    color: rgb(251, 225, 194);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2f408a;
+  }
+  
+  .result-message {
+    margin-top: 20px;
+    font-size: 16px;
+    color: rgb(64, 255, 64);
+  }
+  
